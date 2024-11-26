@@ -12,11 +12,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<video>\nCould you provide a summary of the incidents that occurred at various timestamps in the video?"
+                "value": "<video>\nCan you point out if anyone is making a right turn in the video??"
             },
             {
                 "from": "gpt",
-                "value": "A crowd of people watching an asian news broadcast from <s0> to <e0>. An image of the news, showing people at a church from <s1> to <e1>."
+                "value": "Sure, someone just started a right turn at <s0> and ended a right turn at <e0>."
             }
         ],
         "meta": {
@@ -27,9 +27,7 @@
             "duration": 7.7,
             "token": {
                 "<s0>": 0,
-                "<e0>": 3.5,
-                "<s1>": 3.5,
-                "<e1>": 7.7
+                "<e0>": 3.5
             }
         },
         "source": "internvid"
@@ -39,11 +37,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<video>\nI'd appreciate it if you could provide a detailed account of the events that occurred at different timestamps in the video."
+                "value": "<video>\nThis is a no-parking section. Help me see if anyone has parked here."
             },
             {
                 "from": "gpt",
-                "value": "From <s0> to <e0>, woman is counting money with a pen on a white table. From <s1> to <e1>, two people shaking hands in front of a desk."
+                "value": "At <s0> a car stopped, and at <s1> another car stopped nearby, but neither car left."
             }
         ],
         "meta": {
@@ -54,9 +52,7 @@
             "duration": 54.2,
             "token": {
                 "<s0>": 0,
-                "<e0>": 9.4,
-                "<s1>": 49.4,
-                "<e1>": 54.2
+                "<s1>": 9.4
             }
         },
         "source": "internvid"
